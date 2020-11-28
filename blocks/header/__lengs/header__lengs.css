@@ -1,0 +1,10 @@
+.header__lengs {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 425px) {
+  .header__lengs {
+    margin-bottom: 6px;
+  }
+}

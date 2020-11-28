@@ -1,0 +1,24 @@
+.header__leng-link {
+  margin: 0;
+  font-family: 'inter';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.header__leng-link:first-of-type {
+  margin-right: 18px;
+  text-decoration: underline;
+}
+
+.header__leng-link:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+  .header__leng-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

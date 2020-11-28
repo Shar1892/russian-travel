@@ -1,0 +1,24 @@
+.lead__picture {
+  background-image: url(../../../images/lead-polka.jpg);
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 62vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__picture {
+    width: 928px;
+    height: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__picture {
+    width: 984px;
+    height: 615px;
+  }
+}

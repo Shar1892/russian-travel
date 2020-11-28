@@ -1,0 +1,19 @@
+.lead__way {
+  width: 95vw;
+  height: 28vw;
+  padding-top: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__way{
+    width: 95%;
+    height: 248px;
+    padding-top: 9%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__way{
+    height: 262px;
+  }
+}
