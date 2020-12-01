@@ -1,3 +1,11 @@
 .place__paragraph-container {
   width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph-container {
+    padding: 0;
+  }
 }

@@ -2,8 +2,10 @@
   margin: 0;
   font-family: 'inter';
   font-style: normal;
+  font-weight: 900;
   font-size: 40px;
   line-height: 44px;
+  -webkit-font-smoothing: antialiased;
   color: #ffffff;
   width: 288px;
   text-align: center;

@@ -1,19 +1,20 @@
-.intro__title {
-  margin: 0;
-  width: 100%;
-  font-family: 'inter';
+.cover__title {
+  margin: 0 auto;
+  width: 288px;
+  font-family: "inter";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
   -webkit-font-smoothing: antialiased;
   color: #ffffff;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .intro__title {
-    font-size: 54px;
-    line-height: 58px;
+  .cover__title {
+    width: 560px;
+    font-size: 72px;
+    line-height: 76px;
   }
 }

@@ -1,3 +1,25 @@
 .place__paragraph {
+  margin: 0;
   width: 100%;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+}
+
+.place__paragraph:nth-of-type(2) {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+
+  .place__paragraph:nth-of-type(2) {
+    margin-top: 26px;
+  }
 }
