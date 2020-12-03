@@ -7,15 +7,16 @@
   line-height: 20px;
   -webkit-font-smoothing: antialiased;
   color: #ffffff;
+  transition: opacity 0.5s linear;
 }
 
 .header__leng-link:first-of-type {
   margin-right: 18px;
-  text-decoration: underline;
 }
 
 .header__leng-link:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 425px) {

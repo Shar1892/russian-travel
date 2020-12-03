@@ -7,7 +7,7 @@
   line-height: 44px;
   -webkit-font-smoothing: antialiased;
   color: #ffffff;
-  width: 288px;
+  max-width: 288px;
   text-align: center;
 }
 
@@ -15,6 +15,6 @@
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-    width: 720px;
+    max-width: 720px;
   }
 }

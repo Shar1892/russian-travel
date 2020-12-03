@@ -7,11 +7,11 @@
   line-height: 163%;
   -webkit-font-smoothing: antialiased;
   color: #ffffff;
-  width: 690px;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    width: 100%;
+    max-width: 100%;
   }
 }
