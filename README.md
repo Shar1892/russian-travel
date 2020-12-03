@@ -10,6 +10,6 @@
 * Flexbox
 * Grid
 
-**GitHub**
+**gh-pages**
 
-* https://github.com/Shar1892/russian-travel
+* https://shar1892.github.io/russian-travel/
